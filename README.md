@@ -36,4 +36,7 @@ La experiencia está acompañada de un diseño visual atractivo, con tarjetas ce
 - **Navegación SPA entre secciones:** La aplicación permite navegar entre Home, Detalle y Contacto sin recargar la página usando `react-router-dom`.  
 - **Enviar sugerencias mediante un formulario:** `Contact.jsx` permite al usuario enviar sugerencias (simulado con alert).  
 - **Compartir datos entre componentes:** `MoviesContext.jsx` gestiona la información de películas y la comparte eficientemente.
+## Deploy link: https://verdant-seahorse-6918d4.netlify.app/ 
+- **En el deploy no se se visulizan las imágenes, puede ser un tema de permisos/disponibilidad de las mismas, por favor revisar el video adjunto en la tarea de classroom para ver dichas imágenes, de antemano gracias.
+
 
