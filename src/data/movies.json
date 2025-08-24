@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Pokémon: La película - Mewtwo contraataca",
+    "poster": "/src/assets/mewtwo.jpg",
+    "description": "Ash y Pikachu se enfrentan al poderoso Mewtwo, un clon de Mew creado por científicos."
+  },
+  {
+    "id": 2,
+    "title": "Pokémon: El poder de todos",
+    "poster": "/src/assets/poder_de_todos.jpg",
+    "description": "Ash y sus amigos unen fuerzas con Pikachu y otros Pokémon para proteger la naturaleza y la armonía entre humanos y Pokémon."
+  },
+  {
+    "id": 3,
+    "title": "Pokémon: Detective Pikachu",
+    "poster": "/src/assets/detective_pikachu.jpg",
+    "description": "Tim y Detective Pikachu investigan la misteriosa desaparición del padre de Tim en Ryme City."
+  }
+]

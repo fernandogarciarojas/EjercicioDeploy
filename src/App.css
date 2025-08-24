@@ -1,0 +1,133 @@
+/* Contenedor principal de la página */
+body {
+  font-family: "Press Start 2P", cursive, Arial, sans-serif;
+  background: linear-gradient(to bottom, #ffde00, #f0f0f0);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Contenedor principal de Home */
+.page-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #ffffffcc; /* Fondo blanco semi-transparente */
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* Navegación */
+.nav {
+  background-color: #3b4cca;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 0 0 15px 15px;
+}
+
+.nav .logo {
+  font-size: 1.2rem;
+  color: #ffcb05;
+  font-weight: bold;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ffcb05;
+  font-weight: bold;
+  margin-left: 1rem;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #ffffff;
+}
+
+/* Lista de películas */
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+/* Tarjetas de película */
+.movie-card {
+  background-color: #fffcf0; /* Fondo claro para ver bien el texto */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+
+/* Barra de búsqueda */
+form {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid #3b4cca;
+  font-family: inherit;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #ff1c1c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #cc0000;
+}
+
+/* Títulos */
+h1, h2, h3 {
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  .movie-list {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  input[type="text"] {
+    width: 180px;
+  }
+}
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: center; /* centra horizontalmente las columnas */
+  gap: 2rem;
+  padding: 2rem 1rem;
+}
